@@ -1,0 +1,46 @@
+img {
+  display:block;
+}
+
+/* 大圖 */
+.img {
+  width:1200px;
+  height:380px;
+  position: relative;
+  overflow: hidden;
+  transition: height 3s;
+}
+.closed {
+  height:80px;
+}
+.opened {
+  height:380px;
+}
+
+.btn {
+  cursor: pointer;
+  position:absolute;
+  right:0;
+  bottom:0;
+  width:60px;
+  height:30px;
+  line-height: 30px;
+  text-align: center;
+  background:black;
+  color:white;
+}
+
+.command {
+  position:absolute;
+  top:400px;
+  right: 100px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
